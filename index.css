@@ -1,0 +1,18 @@
+/*CSS RESET*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Crimson Text', serif;
+	background-color: black;
+	color: floralwhite;
+}
+
+#about-me {
+	background-color: black;
+	display: container-fluid; 
+	margin: 5px;
+
+}
