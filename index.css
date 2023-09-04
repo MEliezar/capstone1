@@ -4,15 +4,78 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	font-family: 'Crimson Text', serif;
 	background-color: black;
-	color: floralwhite;
+	color: ghostwhite;
 }
 
-#about-me {
+nav {
+	display: flex;
+	padding: 5px;
+	text-align: center;
+	background-color: seagreen;
+}
+.nav-link {
+	text-align: center;
+	display: inline-block;
+    margin: 0.5rem;
+    padding: 3px;
+}
+
+#about{
+	background-color:black;
+	color: white;
+}
+
+.navbar{
+	background-color: darkblue;
+}
+
+#content{
+	justify-content: center;
+	padding: 5;
+	margin-top: 5rem;
+
+}
+
+#secd{
+	padding: 5rem;
 	background-color: black;
-	display: container-fluid; 
-	margin: 5px;
-
+	color: white;
 }
+
+#projects {
+
+	padding: 5rem;
+}
+img {
+	border-radius: 50%;
+	overflow: hidden;
+	flex: fluid;
+}
+h3 {
+	text-align: center;
+	margin-top: 5rem;
+	text-transform: uppercase;
+}
+
+#contact {
+	flex: fluid;
+	background-color: black;
+	padding: 0;
+}
+
+#modalDiv{
+	color: black;
+}
+
+
+#formcol {
+	background-color: darkgray;
+	color: black;
+	text-align: center;
+	justify-content: center;
+}
+
