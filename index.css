@@ -9,6 +9,7 @@ body {
 	font-family: 'Crimson Text', serif;
 	background-color: black;
 	color: ghostwhite;
+	text-align: center;
 }
 
 nav {
@@ -50,10 +51,12 @@ nav {
 
 	padding: 5rem;
 }
-img {
-	border-radius: 50%;
+#mages {
 	overflow: hidden;
 	flex: fluid;
+	width: 300px;
+	height: 300px;
+	padding-left: 2;
 }
 h3 {
 	text-align: center;
