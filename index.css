@@ -7,9 +7,10 @@
 
 body {
 	font-family: 'Crimson Text', serif;
-	background-color: black;
 	color: ghostwhite;
 	text-align: center;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 nav {
@@ -25,7 +26,31 @@ nav {
     padding: 3px;
 }
 
-#about{
+#landing-title {
+	
+	color: #FFF;
+	font-family: Crimson Text;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 12px 32px;
+	margin: 12px 32px;
+	text-transform: uppercase;
+}
+
+#landingtext {
+	color: #765C3D;
+	font-family: Crimson Text;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 12px 32px;
+	margin: 12px 32px;
+}
+
+#landing{
 	background-color:black;
 	color: white;
 }
@@ -34,12 +59,7 @@ nav {
 	background-color: darkblue;
 }
 
-#content{
-	justify-content: center;
-	padding: 5;
-	margin-top: 5rem;
 
-}
 
 #secd{
 	padding: 5rem;
@@ -47,21 +67,24 @@ nav {
 	color: white;
 }
 
-#projects {
-
-	padding: 5rem;
+#con {
+	background: #FFF;
+	box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+	padding: 20px;
 }
+
+#magesland {
+	width: 300px;
+	height: 300px;
+	box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
 #mages {
 	overflow: hidden;
 	flex: fluid;
-	width: 300px;
-	height: 300px;
-	padding-left: 2;
-}
-h3 {
-	text-align: center;
-	margin-top: 5rem;
-	text-transform: uppercase;
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.25);
 }
 
 #contact {
@@ -80,5 +103,36 @@ h3 {
 	color: black;
 	text-align: center;
 	justify-content: center;
+}
+
+h3 {
+	color: #765C3D;
+	font-family: Crimson Text;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding: 12px 12px;
+	margin: 12px 12px;
+}
+
+h5 {
+	color: #765C3D;
+	font-family: Crimson Text;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 12px 12px;
+	margin: 12px 12px;
+}
+
+#projtxt {
+	color: #765C3D;
+	font-family: Crimson Text;
+	font-style: normal;
+	line-height: normal;
+	padding: 12px 32px;
+	margin: 12px 32px;
 }
 
